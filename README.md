@@ -19,7 +19,7 @@ The dataset used in this analysis a comprehensive collection of information rela
 There were a view steps I needed to take to make sure that the data was  prepared to be analyzed. First, I simply had to drop the first few rows which were completely empty of data from the dataset. I then needed to reset the indexes (column names) to match what they were originally supposed to be. I also replaced all missing -- or indicated as missing --  values to NaN for consistency. Finally, I dealt with the timestamp columns. In the dataset, there were two pairs of columns called OUTAGE.START.DATE, OUTAGE.START.TIME and OUTAGE.RESTORATION.DATE and OUTAGE.RESTORATION.TIME. I wanted to explore the potential factor of pairs of specific times/days when outages occur, so I combined these into OUTAGE.START and OUTAGE.RESTORATION. 
 
 Below is the first few rows of the cleaned dataset.
-|:-----:|:------:|:------------:|:---------------------:|:------------------:|:----------------------:|:-------------------:|
+<!-- |:-----:|:------:|:------------:|:---------------------:|:------------------:|:----------------------:|:-------------------:|
 | YEAR | MONTH  | U.S._STATE   | CAUSE.CATEGORY        | OUTAGE.DURATION    | CUSTOMERS.AFFECTED     | CLIMATE.CATEGORY    |
 |:----:|:------:|:------------:|:---------------------:|:------------------:|:----------------------:|:-------------------:|
 | 2014 |   5    | Minnesota    | intentional attack     | 1                  | NaN                    | normal              |
@@ -27,7 +27,7 @@ Below is the first few rows of the cleaned dataset.
 | 2012 |   6    | Minnesota    | severe weather         | 2550               | 68200                  | normal              |
 | 2015 |   7    | Minnesota    | severe weather         | 1740               | 250000                 | warm                |
 | 2010 |  11    | Minnesota    | severe weather         | 1860               | 60000                  | cold                |
-
+ -->
 
 
 | YEAR | MONTH | U.S._STATE | OUTAGE.START           | OUTAGE.RESTORATION      | CAUSE.CATEGORY   | CUSTOMERS.AFFECTED |
