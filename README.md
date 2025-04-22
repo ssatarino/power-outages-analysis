@@ -1,4 +1,4 @@
-# Power Outages: Predicting Customer Impact #
+# Power Outages: Predicting Customer Impact 
 
 *By Sophia Satarino (fifisata@umich.edu)*
 
@@ -47,7 +47,17 @@ Below is the first few rows of the cleaned dataset.
   frameborder="0"
 ></iframe>
 
+### Interesting Aggregates
 
+| CAUSE.CATEGORY                |   count |      mean |   median |
+|:------------------------------|--------:|----------:|---------:|
+| equipment failure             |      55 |  1816.91  |    221   |
+| fuel supply emergency         |      38 | 13484     |   3960   |
+| intentional attack            |     403 |   429.98  |     56   |
+| islanding                     |      44 |   200.545 |     77.5 |
+| public appeal                 |      69 |  1468.45  |    455   |
+| severe weather                |     743 |  3885.09  |   2460   |
+| system operability disruption |     123 |   728.87  |    215   |
 
 
 ---
