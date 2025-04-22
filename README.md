@@ -1,4 +1,4 @@
-# Power Outages: Predicting Customer Impact
+<!-- # Power Outages: Predicting Customer Impact -->
 
 *By Sophia Satarino (fifisata@umich.edu)*
 
